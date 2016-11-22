@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Pablo Ferraris</authors>
+    <licenseUrl>https://raw.githubusercontent.com/pferraris/ReduxReactive/master/LICENSE</licenseUrl>
+	<projectUrl>https://github.com/pferraris/ReduxReactive</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Redux Reactive .NET C# CSharp</tags>
+  </metadata>
+</package>
