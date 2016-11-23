@@ -1,5 +1,4 @@
-﻿using ReduxReactive;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace ReduxReactive
@@ -17,7 +16,7 @@ namespace ReduxReactive
             InitialState = GetInitialState();
         }
 
-        protected void Register<TAction>(Func<TState, IAction, TState> reducer)
+        protected void Register<TAction>(Func<TState, IAction, TState> reducer) where TAction : IAction
         {
             reducers[typeof(TAction)] = reducer;
         }
